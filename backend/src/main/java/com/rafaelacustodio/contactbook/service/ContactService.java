@@ -31,10 +31,17 @@ public class ContactService implements IContactService {
     @Override
     public ResponseEntity<Contact> edit(Long id, Contact contact) {
         return contactRepository.findById(id).map(record ->{
+
             record.setName(contact.getName());
             record.setLastName(contact.getLastName());
             record.setEmail(contact.getEmail());
-            record.setPhone(contact.getPhone());
+			record.setPhone(contact.getPhone());
+			record.setUf(contact.getUf());
+			record.setCity(contact.getCity());
+			record.setBairro(contact.getBairro());
+			record.setLogradouro(contact.getLogradouro());
+			record.setNumero(contact.getNumero());
+			record.setCep(contact.getCep());
 
             Contact contactUpdated = contactRepository.save(record);
             return new ResponseEntity<Contact>(contactUpdated, HttpStatus.OK);
