@@ -84,7 +84,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js][nodejs], [Java JDK 11][java-11], [Maven][maven] e [PostgresSQL][postgres].
 Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode] ou [SpringTools][springtools]
 
-###  Banco de dados
+### 💾 Banco de dados
 
 O banco de dados utilizado é o PostgresSQL
 Antes de iniciar a aplicação crie o banco de dados: `CREATE DATABASE contact_book`
