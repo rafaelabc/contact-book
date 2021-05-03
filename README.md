@@ -134,7 +134,7 @@ $ yarn start
 
 Este projeto esta sobe a licença MIT.
 
-Feito por Rafaela Custódio -🏽 [Entre em contato!](https://www.linkedin.com/in/rafaela-custodio/)
+Feito por Rafaela Custódio - [Entre em contato!](https://www.linkedin.com/in/rafaela-custodio/)
 
 [axios]: https://github.com/axios/axios
 [bootstrap]: https://getbootstrap.com/
